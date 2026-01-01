@@ -72,7 +72,7 @@ Message:
 ${a.msg.value}
 
 (Submitted via Bloomvaliden website)`;
-      window.location.href = `mailto:dd.cobla@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.location.href = `mailto:dd.cobla@gmail.com?cc=bloomvaliden@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     });
   }
 })();

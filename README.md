@@ -7,8 +7,8 @@ Static website for Bloomvaliden. Includes:
 - Support + assessment forms (mailto fallback)
 
 ## Contacts
-- Email: dd.cobla@gmail.com
-- Phone: +233 54 792 7790 / 30 298 6340
+- Email: bloomvaliden@gmail.com / dd.cobla@gmail.com
+- Phone: +233 30 298 6340 / +233 54 792 7790
 - Instagram: @bloomvaliden
 
 ## GitHub Pages
