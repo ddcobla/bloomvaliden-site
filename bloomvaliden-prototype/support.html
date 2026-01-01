@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Bloomvaliden – Reliable. Secure. Practical IT Solutions for Business Continuity." />
+  <title>Support • Bloomvaliden</title>
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="Bloomvaliden home">
+        <img src="assets/img/logo.svg" alt="Bloomvaliden logo" />
+        <div>
+          <div class="title">Bloomvaliden</div>
+          <div class="subtitle">Reliable • Secure • Practical</div>
+        </div>
+      </a>
+
+      <nav class="navlinks" aria-label="Primary">
+        <a class="" href="index.html">Home</a>
+<a class="" href="services.html">Services</a>
+      <a class="" href="investigations.html">Investigations</a>
+        <a class="" href="investigations.html">Investigations</a>
+<a class="active" href="support.html">Support</a>
+<a class="" href="about.html">About</a>
+<a class="" href="contact.html">Contact</a>
+      </nav>
+
+      <div class="navright">
+        <button class="iconbtn" data-theme-toggle aria-label="Toggle theme">🌓</button>
+        <button class="iconbtn burger" data-burger aria-label="Open menu">☰</button>
+      </div>
+    </div>
+
+    <div class="mobilemenu" data-mobilemenu>
+      <a class="" href="index.html">Home</a>
+<a class="" href="services.html">Services</a>
+<a class="active" href="support.html">Support</a>
+<a class="" href="about.html">About</a>
+<a class="" href="contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="section">
+  <div class="container">
+    <div class="badge">Support (Prototype)</div>
+    <h1 class="h1" style="margin-top:10px">Open a support / investigation ticket</h1>
+    <p class="lead">This is a working demo: tickets are saved only on this device (localStorage). Replace with a real helpdesk later.</p>
+
+    <div class="grid cards2" style="margin-top:16px">
+      <div class="card">
+        <h3>Ticket details (IT / Security / Forensics)</h3>
+        <form class="form" data-ticket-form>
+          <div>
+            <label for="t_name">Your name</label>
+            <input class="input" id="t_name" name="name" placeholder="e.g., Ama Mensah" required />
+          </div>
+          <div>
+            <label for="t_email">Email</label>
+            <input class="input" id="t_email" name="email" type="email" placeholder="e.g., ama@company.com" required />
+          </div>
+          <div>
+            <label for="t_subject">Subject</label>
+            <input class="input" id="t_subject" name="subject" placeholder="e.g., Wi‑Fi drops every afternoon" required />
+          </div>
+          <div>
+            <label for="t_category">Category</label>
+            <select id="t_category" name="category">
+              <option>General IT</option>
+              <option>Servers & Networking</option>
+              <option>Cybersecurity</option>
+              <option>Incident Response</option>
+              <option>Digital Forensics / Investigation</option>
+            </select>
+          </div>
+          <div>
+            <label for="t_priority">Priority</label>
+            <select id="t_priority" name="priority">
+              <option>Normal</option>
+              <option>High</option>
+              <option>Critical</option>
+            </select>
+          </div>
+          <div>
+            <label for="t_details">Describe the issue</label>
+            <textarea id="t_details" name="details" placeholder="What happened, when it started, and any error messages…" required></textarea>
+          </div>
+
+          <div style="display:flex; gap:10px; flex-wrap:wrap">
+            <button class="btn primary" type="submit">Save Ticket</button>
+            <button class="btn danger" type="button" data-clear-tickets>Clear Local Tickets</button>
+          </div>
+
+          <div class="alert" data-form-status hidden></div>
+          <div class="help">Next step: connect this form to email, Zendesk/Freshdesk, or a small backend API.</div>
+        </form>
+      </div>
+
+      <div class="card">
+        <h3>Saved tickets (this device)</h3>
+        <div class="small" style="margin-bottom:10px">Use this as a demo for how a future client portal could work.</div>
+        <div class="grid" data-ticket-list></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footergrid">
+      <div>
+        <div class="badge">We secure what others ignore</div>
+        <p class="muted" style="margin-top:10px">
+          Bloomvaliden delivers security-first IT consultancy, system integration, maintenance, and repairs — designed for business continuity and responsible data handling.
+        </p>
+      </div>
+      <div>
+        <div style="font-weight:800;margin-bottom:8px">Company</div>
+        <div class="muted"><a href="about.html">About</a></div>
+        <div class="muted"><a href="services.html">Services</a></div>
+        <div class="muted"><a href="pages/privacy.html">Privacy</a></div>
+      </div>
+      <div>
+        <div style="font-weight:800;margin-bottom:8px">Get in touch</div>
+        <div class="muted"><a href="contact.html">Request an assessment</a></div>
+<div class="muted"><a href="support.html">Open a support ticket</a></div>
+<div class="muted"><a href="mailto:bloomvaliden@gmail.com">bloomvaliden@gmail.com</a></div>
+<div class="muted"><a href="tel:+233547927790">+233 54 792 7790 / 30 298 6340</a></div>
+<div class="muted"><a href="https://instagram.com/bloomvaliden" target="_blank" rel="noopener">Instagram: @bloomvaliden</a></div>
+</div>
+    </div>
+    <div class="hr"></div>
+    <div class="muted">© 2026 Bloomvaliden • Prototype website</div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
