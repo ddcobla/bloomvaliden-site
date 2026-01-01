@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support • Bloomvaliden</title>
+  <meta name="description" content="IT Consultancy • Systems, Servers & Networking • Cybersecurity • Digital Forensics • Investigations • Web & Domains • IT/AV Equipment" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="index.html">
+          <img src="assets/img/logo.jpg" alt="Bloomvaliden logo" />
+          <div>
+            <strong>Bloomvaliden</strong>
+            <div class="small">IT • Security • Forensics</div>
+          </div>
+        </a>
+
+        <nav class="navlinks" aria-label="Primary">
+            <a class="" href="index.html">Home</a>
+            <a class="" href="services.html">Services</a>
+            <a class="" href="investigations.html">Investigations</a>
+            <a class="active" href="support.html">Support</a>
+            <a class="" href="about.html">About</a>
+            <a class="" href="contact.html">Contact</a>
+            <a class="btn primary" data-open-chat="true" href="support.html">Chat / Ticket</a>
+        </nav>
+
+        <button id="menuBtn" class="btn menuBtn" aria-expanded="false" aria-controls="mobileMenu">Menu</button>
+      </div>
+      <div id="mobileMenu" class="mobileMenu" aria-label="Mobile">
+          <a class="" href="index.html">Home</a>
+          <a class="" href="services.html">Services</a>
+          <a class="" href="investigations.html">Investigations</a>
+          <a class="active" href="support.html">Support</a>
+          <a class="" href="about.html">About</a>
+          <a class="" href="contact.html">Contact</a>
+          <a class="btn primary" data-open-chat="true" href="support.html">Chat / Ticket</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+<section class="section">
+  <div class="container">
+    <div class="badge">Support</div>
+    <h1 class="h1" style="margin-top:10px">Need support now?</h1>
+    <p class="lead">
+      Use chat to open a ticket instantly. If chat is unavailable, use the request form below (email fallback).
+    </p>
+
+    <div class="split" style="margin-top:14px">
+      <div class="card">
+        <h3>Open chat / ticket</h3>
+        <p class="small">Click below to open the chat widget.</p>
+        <div style="margin-top:12px">
+          <a class="btn primary" data-open-chat="true" href="support.html">Open chat</a>
+        </div>
+        <div class="hr"></div>
+        <div class="small">Email: <a href="mailto:dd.cobla@gmail.com">dd.cobla@gmail.com</a></div>
+        <div class="small">Phone: <a href="tel:+233547927790">+233 54 792 7790 / 30 298 6340</a></div>
+      </div>
+
+      <div class="card">
+        <h3>Support / Investigation request</h3>
+        <form id="supportRequestForm" data-to="dd.cobla@gmail.com" style="margin-top:12px">
+          <div class="grid" style="grid-template-columns:1fr 1fr; gap:12px">
+            <div>
+              <label for="sr_name">Full name</label>
+              <input id="sr_name" name="name" required placeholder="Your name" />
+            </div>
+            <div>
+              <label for="sr_phone">Phone</label>
+              <input id="sr_phone" name="phone" placeholder="+233..." />
+            </div>
+            <div style="grid-column:1/-1">
+              <label for="sr_email">Email</label>
+              <input id="sr_email" type="email" name="email" required placeholder="you@email.com" />
+            </div>
+            <div>
+              <label for="sr_category">Category</label>
+              <select id="sr_category" name="category">
+                <option>General IT</option>
+                <option>IT Consultancy</option>
+                <option>Servers & Networking</option>
+                <option>Cybersecurity</option>
+                <option>Incident Response</option>
+                <option>Digital Forensics / Investigation</option>
+                <option>Website Development</option>
+                <option>Domain / DNS / SSL</option>
+                <option>Business Email</option>
+                <option>Graphic Design</option>
+                <option>IT & AV Equipment</option>
+              </select>
+            </div>
+            <div>
+              <label for="sr_priority">Priority</label>
+              <select id="sr_priority" name="priority">
+                <option>Normal</option>
+                <option>High</option>
+                <option>Urgent</option>
+              </select>
+            </div>
+            <div style="grid-column:1/-1">
+              <label for="sr_subject">Subject</label>
+              <input id="sr_subject" name="subject" required placeholder="Short summary" />
+            </div>
+            <div style="grid-column:1/-1">
+              <label for="sr_details">Details</label>
+              <textarea id="sr_details" name="details" required rows="6" placeholder="What happened? When did it start? What systems are affected? Any error messages?"></textarea>
+              <div class="small" style="margin-top:6px">
+                Tip: for urgent incidents, start the subject with <strong>URGENT</strong>.
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap">
+            <button class="btn primary" type="submit">Send request (email)</button>
+            <a class="btn" data-open-chat="true" href="support.html">Use chat instead</a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:16px">
+      <div class="badge">Authorization required</div>
+      <p class="small" style="margin-top:10px">
+        Investigations and forensic services are handled only with lawful authorization. We do not assist with unauthorized access or wrongdoing.
+      </p>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footerGrid">
+        <div>
+          <div class="brand" style="margin-bottom:10px">
+            <img src="assets/img/logo.jpg" alt="Bloomvaliden logo" />
+            <div>
+              <strong>Bloomvaliden</strong>
+              <div class="small">Ghana • Remote support available</div>
+            </div>
+          </div>
+          <div class="small">
+            Reliable IT, strong cybersecurity, and professional investigation support — delivered responsibly.
+          </div>
+          <div class="hr"></div>
+          <div class="small">Email: <a href="mailto:dd.cobla@gmail.com">dd.cobla@gmail.com</a></div>
+          <div class="small">Phone: <a href="tel:+233547927790">+233 54 792 7790 / 30 298 6340</a></div>
+          <div class="small">Instagram: <a href="https://instagram.com/bloomvaliden" target="_blank" rel="noopener">@bloomvaliden</a></div>
+        </div>
+
+        <div>
+          <div style="font-weight:800;margin-bottom:8px">Quick Links</div>
+          <div class="small"><a href="services.html">Services</a></div>
+          <div class="small"><a href="investigations.html">Investigations</a></div>
+          <div class="small"><a href="support.html">Support</a></div>
+          <div class="small"><a href="pages/privacy.html">Privacy</a></div>
+        </div>
+
+        <div>
+          <div style="font-weight:800;margin-bottom:8px">Get help</div>
+          <div class="small"><a data-open-chat="true" href="support.html">Need support now? (Chat)</a></div>
+          <div class="small"><a href="contact.html">Request an IT assessment</a></div>
+          <div class="small"><a href="support.html">Open a support / investigation ticket</a></div>
+          <div class="hr"></div>
+          <div class="small">
+            <span class="badge">Authorized work only</span>
+            <div style="margin-top:8px;color:var(--muted)">
+              Investigations & digital forensics are handled only with lawful authorization.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hr"></div>
+      <div class="small">© 2026 Bloomvaliden. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6956f2c218b41f1981f7a662/1jdtq8imv';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>
